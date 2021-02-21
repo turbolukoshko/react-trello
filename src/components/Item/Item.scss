@@ -1,0 +1,12 @@
+.board__item {
+  background: #ffffff;
+  border: 1px solid black;
+  margin: 10px 0;
+  padding: 10px;
+  &:hover {
+    cursor: pointer;
+  }
+  .board__item-title {
+    font-weight: 400;
+  }
+}
